@@ -99,26 +99,11 @@ namespace P7_1_1214078
                 ("NIM Belum Diisi!!",
                 "Informasi Data Submit",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-
-            /*MessageBox.Show
-            ("\nNama : " + tbNama.Text +
-             "\nProdi : " + tbProdi.Text +
-             "\nKelas : " + tbKelas.Text,
-             "Informasi Formulir",
-             MessageBoxButtons.OK, MessageBoxIcon.Information);*/
-        
+            }  
     }
 
         private void txtTA_TextChanged(object sender, EventArgs e)
         {
-            /*if (Regex.IsMatch(txtTA.Text, @"^^[^@\s]+@[^@\s]+(\.[^@\s]+)+$"))
-            {
-                epWarning.SetError(txtEmail, "");
-                epWrong.SetError(txtEmail, "");
-                epCorrect.SetError(txtEmail, "Betul");
-            }*/
-
             if (txtTA.Text == "")
             {
                 epWarning.SetError(txtTA, "Textbox Tahun Akademik tidak boleh kosong");
