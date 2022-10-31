@@ -21,38 +21,6 @@ namespace P7_1_1214078
             this.Size = new Size(1123, 360);
         }
 
-        private void Batal_Click(object sender, EventArgs e)
-        {
-            txtNIM.Text = null;
-            txtNama.Text = null;
-            Laki.Checked = false;
-            Perempuan.Checked = false;
-            Alamat.Text = null;
-            comboBox1.Text = null;
-            txtTA.Text = null;
-            txtSemester.Text = null;
-
-            Kurikulum2006.Checked = false;
-            Kurikulum2010.Checked = false;
-            Kurikulum2014.Checked = false;
-
-            Matematika.Checked = false;
-            Pemrograman1.Checked = false;
-            Pemrograman2.Checked = false;
-            Pemrograman3.Checked = false;
-            Pemrograman4.Checked = false;
-            Pemrograman5.Checked = false;
-            Pemrograman6.Checked = false;
-            Pemrograman7.Checked = false;
-            PengantarLogistik.Checked = false;
-            JaringanKomputer.Checked = false;
-            SistemOperasi.Checked = false;
-            ManajemenRantaiPasok.Checked = false;
-
-            this.Size = new Size(1123, 360);
-
-        }
-
         private void PilihMataKuliah_Click(object sender, EventArgs e)
         {
             if (txtNIM.Text != "")
@@ -104,7 +72,7 @@ namespace P7_1_1214078
                         else
                         {
                             MessageBox.Show
-                        ("Alamat Kelamin Belum Diisi!!",
+                        ("Alamat Belum Diisi!!",
                         "Informasi Data Submit",
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
@@ -172,7 +140,6 @@ namespace P7_1_1214078
                     epCorrect.SetError(txtTA, "");
                 }
             }
-                
         }
 
         private void txtSemester_TextChanged(object sender, EventArgs e)
@@ -333,13 +300,22 @@ namespace P7_1_1214078
             {
                 MataKuliah += ManajemenRantaiPasok.Text + ", ";
             }
-           
+
+            string jk = null;
+            if (Laki.Checked)
+            {
+                jk = Laki.Text;
+            }
+            else
+            {
+                jk = Perempuan.Text;
+            }
 
             {
                 MessageBox.Show
                         ("NIM : " + txtNIM.Text +
                         "\nNama : " + txtNama.Text +
-                        "\nJenis Kelamin : " + (Laki.Checked || Perempuan.Checked) +
+                        "\nJenis Kelamin : " + jk +
                         "\nAlamat : " + Alamat.Text +
                         "\nProgram Studi: " + comboBox1.Text +
                         "\nTahun Akademik : " + txtTA.Text +
@@ -353,7 +329,37 @@ namespace P7_1_1214078
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+        private void Batal_Click(object sender, EventArgs e)
+        {
+            txtNIM.Text = null;
+            txtNama.Text = null;
+            Laki.Checked = false;
+            Perempuan.Checked = false;
+            Alamat.Text = null;
+            comboBox1.Text = null;
+            txtTA.Text = null;
+            txtSemester.Text = null;
 
+            Kurikulum2006.Checked = false;
+            Kurikulum2010.Checked = false;
+            Kurikulum2014.Checked = false;
+
+            Matematika.Checked = false;
+            Pemrograman1.Checked = false;
+            Pemrograman2.Checked = false;
+            Pemrograman3.Checked = false;
+            Pemrograman4.Checked = false;
+            Pemrograman5.Checked = false;
+            Pemrograman6.Checked = false;
+            Pemrograman7.Checked = false;
+            PengantarLogistik.Checked = false;
+            JaringanKomputer.Checked = false;
+            SistemOperasi.Checked = false;
+            ManajemenRantaiPasok.Checked = false;
+
+            this.Size = new Size(1123, 360);
+
+        }
         private void MataKuliah_Enter(object sender, EventArgs e)
         {
 

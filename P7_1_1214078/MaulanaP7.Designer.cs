@@ -269,6 +269,7 @@
             // ManajemenRantaiPasok
             // 
             this.ManajemenRantaiPasok.AutoSize = true;
+            this.ManajemenRantaiPasok.Enabled = false;
             this.ManajemenRantaiPasok.Location = new System.Drawing.Point(454, 162);
             this.ManajemenRantaiPasok.Name = "ManajemenRantaiPasok";
             this.ManajemenRantaiPasok.Size = new System.Drawing.Size(184, 20);
@@ -279,6 +280,7 @@
             // JaringanKomputer
             // 
             this.JaringanKomputer.AutoSize = true;
+            this.JaringanKomputer.Enabled = false;
             this.JaringanKomputer.Location = new System.Drawing.Point(454, 82);
             this.JaringanKomputer.Name = "JaringanKomputer";
             this.JaringanKomputer.Size = new System.Drawing.Size(141, 20);
@@ -289,6 +291,7 @@
             // SistemOperasi
             // 
             this.SistemOperasi.AutoSize = true;
+            this.SistemOperasi.Enabled = false;
             this.SistemOperasi.Location = new System.Drawing.Point(454, 121);
             this.SistemOperasi.Name = "SistemOperasi";
             this.SistemOperasi.Size = new System.Drawing.Size(121, 20);
@@ -299,6 +302,7 @@
             // PengantarLogistik
             // 
             this.PengantarLogistik.AutoSize = true;
+            this.PengantarLogistik.Enabled = false;
             this.PengantarLogistik.Location = new System.Drawing.Point(454, 44);
             this.PengantarLogistik.Name = "PengantarLogistik";
             this.PengantarLogistik.Size = new System.Drawing.Size(140, 20);
@@ -309,6 +313,7 @@
             // Pemrograman7
             // 
             this.Pemrograman7.AutoSize = true;
+            this.Pemrograman7.Enabled = false;
             this.Pemrograman7.Location = new System.Drawing.Point(227, 162);
             this.Pemrograman7.Name = "Pemrograman7";
             this.Pemrograman7.Size = new System.Drawing.Size(122, 20);
@@ -319,6 +324,7 @@
             // Pemrograman5
             // 
             this.Pemrograman5.AutoSize = true;
+            this.Pemrograman5.Enabled = false;
             this.Pemrograman5.Location = new System.Drawing.Point(227, 82);
             this.Pemrograman5.Name = "Pemrograman5";
             this.Pemrograman5.Size = new System.Drawing.Size(122, 20);
@@ -329,6 +335,7 @@
             // Pemrograman6
             // 
             this.Pemrograman6.AutoSize = true;
+            this.Pemrograman6.Enabled = false;
             this.Pemrograman6.Location = new System.Drawing.Point(227, 121);
             this.Pemrograman6.Name = "Pemrograman6";
             this.Pemrograman6.Size = new System.Drawing.Size(122, 20);
@@ -339,6 +346,7 @@
             // Pemrograman4
             // 
             this.Pemrograman4.AutoSize = true;
+            this.Pemrograman4.Enabled = false;
             this.Pemrograman4.Location = new System.Drawing.Point(227, 44);
             this.Pemrograman4.Name = "Pemrograman4";
             this.Pemrograman4.Size = new System.Drawing.Size(122, 20);
@@ -349,6 +357,7 @@
             // Pemrograman3
             // 
             this.Pemrograman3.AutoSize = true;
+            this.Pemrograman3.Enabled = false;
             this.Pemrograman3.Location = new System.Drawing.Point(16, 162);
             this.Pemrograman3.Name = "Pemrograman3";
             this.Pemrograman3.Size = new System.Drawing.Size(122, 20);
@@ -359,6 +368,7 @@
             // Pemrograman1
             // 
             this.Pemrograman1.AutoSize = true;
+            this.Pemrograman1.Enabled = false;
             this.Pemrograman1.Location = new System.Drawing.Point(16, 82);
             this.Pemrograman1.Name = "Pemrograman1";
             this.Pemrograman1.Size = new System.Drawing.Size(122, 20);
@@ -369,6 +379,7 @@
             // Pemrograman2
             // 
             this.Pemrograman2.AutoSize = true;
+            this.Pemrograman2.Enabled = false;
             this.Pemrograman2.Location = new System.Drawing.Point(16, 121);
             this.Pemrograman2.Name = "Pemrograman2";
             this.Pemrograman2.Size = new System.Drawing.Size(122, 20);
@@ -379,6 +390,7 @@
             // Matematika
             // 
             this.Matematika.AutoSize = true;
+            this.Matematika.Enabled = false;
             this.Matematika.Location = new System.Drawing.Point(16, 44);
             this.Matematika.Name = "Matematika";
             this.Matematika.Size = new System.Drawing.Size(99, 20);
@@ -453,7 +465,7 @@
             this.epCorrect.ContainerControl = this;
             this.epCorrect.Icon = ((System.Drawing.Icon)(resources.GetObject("epCorrect.Icon")));
             // 
-            // Form1
+            // MaulanaP7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -479,7 +491,7 @@
             this.Controls.Add(this.Kurikulum);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.txtNIM);
-            this.Name = "Form1";
+            this.Name = "MaulanaP7";
             this.Text = "Form1";
             this.Kurikulum.ResumeLayout(false);
             this.Kurikulum.PerformLayout();
